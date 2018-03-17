@@ -24,7 +24,7 @@ services:
       - front-tier
       - back-tier
     env_file:
-      - env-dev.conf
+      - env.conf
 
   ui:
     build:
